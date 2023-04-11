@@ -26,3 +26,5 @@
 * Filtrelenmiş verileri `CryptoList` bileşenine gönderin.
 
 ## ReactStrap ya da başka css programı kullanabilirsiniz.
+
+[Yararlanabileceğiniz 2.Kaynak](https://dev.to/rowlinsonmike/cryptotracker-in-70-lines-of-code-4jh9)
