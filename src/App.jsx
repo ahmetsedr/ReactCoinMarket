@@ -10,7 +10,13 @@ function CryptoList({ data, searchTerm }) {
     <ListGroup>
       {filteredData.map(coin => (
         <ListGroupItem key={coin.id} className="d-flex align-items-center">
-          <img src={coin.image} alt={`${coin.name} logo`} width="25" height="25" className="me-2" />
+          <img
+            src={`https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/128/color/${coin.symbol}.png`}
+            alt={`${coin.name} logo`}
+            width="25"
+            height="25"
+            className="me-2"
+          />
           <div>
             <div>{coin.name} ({coin.symbol})</div>
             <div className="text-muted">${coin.current_price}</div>
